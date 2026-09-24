@@ -6,7 +6,7 @@ public class Recursividad {
 	if(total <= 0)
 		return;
 	else{
-		System.out.println("Hola");
+		System.out.println("Hola Pedro");
 		saludo(total-1);
 	}
 	
