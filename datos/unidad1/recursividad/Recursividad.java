@@ -11,9 +11,26 @@ public class Recursividad {
 	}
 	
 	}
+
+	/**
+	*Funcion que realiza cuenta regresiva de acuerdo a un 
+	*valor entero
+	*Fecha: 25 de septiembre
+	*
+	*/
+
+	public static void cuentaRegresiva(int n){
+		if(n < 1){
+			return;
+		}else{
+			System.out.println(n + " ");
+			cuentaRegresiva(n-1);
+		}
+	}
 	
 	public static void main(String[] args){
-		saludo(100, "Pedro");
+		//saludo(100, "Pedro");
+		cuentaRegresiva(100);
 	}
 
 }
