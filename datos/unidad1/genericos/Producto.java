@@ -15,11 +15,11 @@ public abstract class Producto<T>{
 		return nombre;
 	}
 
-	public String getPrecio(){
-		return nombre;
+	public Double getPrecio(){
+		return precio;
 	}
 
-	public String getExtra(){
+	public T getExtra(){
 		return extra;
 	}
 
